@@ -38,6 +38,7 @@ set guifont=Monaco
 
 "" Some maps
 
+nmap <silent> <F6> :NERDTreeFind<CR>
 nmap <silent> <F7> :NERDTreeToggle<CR>
 nmap <silent> <F8> :Tlist<CR>
 nmap <silent> <F3> :SyntasticCheck<CR>:Errors<CR>

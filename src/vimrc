@@ -28,7 +28,7 @@ set number
 set ignorecase
 
 "" Some maps
-
+nmap <silent> <F6> :NERDTreeFind<CR>
 nmap <silent> <F7> :NERDTreeToggle<CR>
 nmap <silent> <F8> :Tlist<CR>
 inoremap <F4> <ESC>:call PhpDocSingle()<CR>i 
